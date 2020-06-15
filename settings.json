@@ -1,0 +1,67 @@
+{
+    "terminal.integrated.rendererType": "dom",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "todo-tree.tree.showScanModeButton": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.fontFamily": "'Source Code Pro', 'monospace', monospace",
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "red",
+        "background": "#1A2B38",
+        "opacity": 50,
+        "iconColour": "red"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "issue-opened",
+            "type": "line",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            "foreground": "yellow",
+            "iconColour": "yellow",
+            "gutterIcon": true,
+            "type": "line"
+        },
+        "NOTE": {
+            "foreground": "white",
+            "gutterIcon": false,
+            "type": "line",
+            "hideFromTree":true
+        }
+    },
+    "todo-tree.general.tags": [
+        "BUG","HACK","FIXME","TODO","todo","fix",
+        "fixme","fixthis","hack","bug","FIX ME", "NOTE",
+        "note", "NOTA", "nota",
+    ],
+    "todo-tree.general.tagGroups": {
+        "TODO": ["TODO", "todo"],
+        "FIXME":["FIXME", "fix", "fixme", "fixthis", "FIX ME"],
+        "NOTE": ["NOTE", "note", "NOTA", "nota"]
+    },
+    "window.zoomLevel": -1,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.semanticHighlighting.enabled": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.colorTheme": "Dracula",
+    "python.jediEnabled": false,
+    "java.imports.gradle.wrapper.checksums": [
+        {
+            "sha256": "4160d5a6d8d6efc6af336582bbbba8194e4d7a742835f7b0fd3964cbd419c994",
+            "allowed": true
+        },
+        {
+            "sha256": "778e7f46bd67eaea2de5bcbdbb40878c6614656014ba59a72ce8648eaf43a925",
+            "allowed": true
+        }
+    ]
+}
