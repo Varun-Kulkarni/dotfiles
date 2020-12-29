@@ -1,0 +1,94 @@
+{
+	    "editor.suggestSelection": "first",
+	        "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+		    "java.semanticHighlighting.enabled": true,
+		        "java.configuration.checkProjectSettingsExclusions": false,
+			    "editor.wordWrap": "bounded",
+			        "editor.wordWrapColumn": 120,
+				    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+				        "terminal.external.windowsExec": "C:\\Windows\\System32\\wsl.exe",
+					    "editor.fontFamily": "'Hack NF', 'monospace', monospace",
+					        "terminal.integrated.fontFamily": "Hack, sans-serif",
+						    "workbench.colorTheme": "Dracula",
+						        "todo-tree.tree.showScanModeButton": true,
+							    "todo-tree.highlights.defaultHighlight": {
+								            "icon": "alert",
+									            "type": "text",
+										            "foreground": "red",
+											            "background": "#1A2B38",
+												            "opacity": 50,
+													            "iconColour": "red"
+														        },
+															    "todo-tree.highlights.customHighlight": {
+																            "TODO": {
+																		                "foreground": "#FF7E6B",
+																				            "iconColour": "#FF7E6B",
+																					                "icon": "issue-opened",
+																							            "type": "line",
+																								                "gutterIcon": true 
+																										        },
+																											        "FIXME": {
+																													            "foreground": "#FFE548",
+																														                "background": "#FF000000",
+																																            "iconColour": "#FFE548",
+																																	                "gutterIcon": true,
+																																			            "type": "line"
+																																				            },
+																																					            "NOTE": {
+																																							                "foreground": "#FEFDFF",
+																																									            "background": "#FF000000",
+																																										                "gutterIcon": false,
+																																												            "type": "line",
+																																													                "hideFromTree":true
+																																															        },
+																																																        "$": {
+																																																		            "foreground": "#F96900",
+																																																			                "background": "#00000070",
+																																																					            "gutterIcon": false,
+																																																						                "type": "line",
+																																																								            "hideFromTree": true
+																																																									            },
+																																																										            "[JIRA]": {
+																																																												                "foreground": "#97CCD8",
+																																																														            "background": "#FF000000",
+																																																															                "gutterIcon": true,
+																																																																	            "icon": "meter",
+																																																																		                "iconColour": "#97CCD8",
+																																																																				            "type": "line",
+																																																																					                "hideFromTree": true
+
+																																																																							        },
+																																																																								        "EMPHASIS": {
+																																																																										            "foreground": "#9EBE0E",
+																																																																											                "gutterIcon": false,
+																																																																													            "type": "line",
+																																																																														                "hideFromTree": true
+																																																																																        },
+																																																																																	        "bullet": {
+																																																																																			            "foreground": "#EF798A",
+																																																																																				                "type": "tag",
+																																																																																						            "hideFromTree": true,
+																																																																																							                "gutterIcon": false
+																																																																																									        }
+																																																																																										    },
+																																																																																										        "todo-tree.general.tags": [
+																																																																																												        "BUG","HACK","FIXME","TODO","todo","fix",
+																																																																																													        "fixme","fixthis","hack","bug","FIX ME", "NOTE",
+																																																																																														        "note", "NOTA", "nota", "$", "[JIRA]", "EM", "EMPHASIS",
+																																																																																															        "bullet", ">", "-->", "-", "->"
+																																																																																																    ],
+																																																																																																        "todo-tree.general.tagGroups": {
+																																																																																																		        "TODO": ["TODO", "todo"],
+																																																																																																			        "FIXME":["FIXME", "fix", "fixme", "fixthis", "FIX ME"],
+																																																																																																				        "NOTE": ["NOTE", "note", "NOTA", "nota"],
+																																																																																																					        "[JIRA]": ["[JIRA]", "[Jira]"],
+																																																																																																						        "EMPHASIS": ["EMPHASIS", "EM"],
+																																																																																																							        "bullet": ["bullet", ">", "-->", "-", "->"]
+																																																																																																								    },
+																																																																																																								        "editor.fontSize": 12,
+																																																																																																									    "editor.multiCursorModifier": "ctrlCmd",
+																																																																																																									        "python.languageServer": "Microsoft",
+																																																																																																										    "python.pythonPath": "C:\\Users\\varunk\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+																																																																																																										        "python.showStartPage": false,
+																																																																																																											    "window.zoomLevel": 0,
+}
