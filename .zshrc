@@ -125,8 +125,8 @@ alias altr="ls -altr"
 alias oftr="ls -oFtr"                               #omit group, add Format (/, @, etc), time, reverse (latest is on bottom)
 alias ofsr="ls -oFSr --group-directories-first"     #omit group, add format, size, reverse (biggest on bottom).  Puts directories above all b/c fixed size
 #derive from ls grammar
-alias lsall="ls -oF --group-directories-first"      #list alphabetically with formatting and directories first
-alias lsa="ls -oF --group-directories-first"        #OVERRWRITE ohmyzsh's lsa
+alias lsall="ls -oaF --group-directories-first"      #list alphabetically with formatting and directories first
+alias lsa="ls -oaF --group-directories-first"        #OVERRWRITE ohmyzsh's lsa
 alias lsize="ls -oFSr --group-directories-first"    #easier alias
 alias ltime="ls -oFtr"                              #easier alias
 alias recurseTime="ls -oRFtr"                       #omit group, recursively list, format, sort by time within each recursion, reverse the time sort
